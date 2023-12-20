@@ -1,0 +1,88 @@
+/* // fifteen.jsx */
+.search{
+    display: flex;
+    height:100vh;
+     width: 100vw;
+     flex-direction: column;
+     justify-content: center;
+
+     align-items: center;
+}
+
+.search input{
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid black;
+}
+.search label {
+    margin-right: 10px;
+    font-size: 16px;
+}
+.search ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+
+
+/* // Twenty4.jsx */
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+  }
+  
+  ul div li{
+    display: flex;
+    gap: 30px;
+  }
+  
+  ul div li span{
+    width: 200px;
+  }
+
+
+
+  /* // Twenty5.jsx */
+
+  .section-2{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-content: center;
+    width: 100vw;
+    height: 30vh;
+    align-self: center;
+    margin: auto;
+  
+  }
+  
+  .games-2{
+    display: flex;
+    gap: 30px
+  }
+
+
+
+  /* //Twentry6.jsx */
+
+  .dragabble div{
+    cursor: grab;
+    padding: 10px;
+    border: 1px solid black;
+    }
+    .dragabble{
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+    
+    }
